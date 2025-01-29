@@ -1,0 +1,28 @@
+# Ignorer les fichiers générés par WordPress
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/backup-db/
+wp-config.php
+wp-config-sample.php
+
+# Ignorer les fichiers et dossiers de logs
+*.log
+logs/
+debug.log
+
+# Ignorer les fichiers d'environnement
+.env
+.env.local
+.env.production
+.env.test
+
+# Ignorer les fichiers et dossiers spécifiques à Docker
+docker-compose.override.yml
+db_data/
+*.sql
+*.tar
+
+# Ignorer les fichiers système macOS et autres
+.DS_Store
+Thumbs.db
+^x
